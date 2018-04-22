@@ -1,0 +1,10 @@
+version: '3'
+services:
+  rstudio:
+    build: rstudio
+    ports:
+    - "8787:8787"
+  app:
+    image: seabbs/exploreidmodels:latest
+    ports:
+    - "3838:3838"
