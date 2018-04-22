@@ -4,7 +4,7 @@
 A backup server for the BIDD Infectious Disease Modelling short course
 
 
-To initialise the server run the following (after install [docker](https://docs.docker.com/install/)),
+To initialise the server run the following (after installing [docker](https://docs.docker.com/install/)),
 
 ```bash
 docker compose up -d
